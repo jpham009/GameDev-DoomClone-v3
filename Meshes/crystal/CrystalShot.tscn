@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Meshes/crystal/Crystal.gd" type="Script" id=1]
+[ext_resource path="res://Meshes/crystal/scene.gltf" type="PackedScene" id=2]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[node name="Crystal" type="KinematicBody"]
+script = ExtResource( 1 )
+
+[node name="Scene Root" parent="." instance=ExtResource( 2 )]
+
+[node name="SpotLight" type="SpotLight" parent="."]
+transform = Transform( 0.999294, 0.0375727, 0, -0.0295505, 0.785934, 0.617604, 0.023205, -0.617168, 0.786489, 0, 3.06471, 2.94096 )
+light_energy = 16.0
+light_specular = 1.0
+
+[node name="SpotLight2" type="SpotLight" parent="."]
+transform = Transform( 0.999294, 0.0375727, 4.84241e-009, 0.0300045, -0.798007, -0.6019, -0.022615, 0.601475, -0.798571, 0, -1.35701, -2.56292 )
+light_energy = 16.0
+light_specular = 1.0
+
+[node name="SpotLight3" type="SpotLight" parent="."]
+transform = Transform( 0.156074, -0.150562, 0.976203, 0.0371, -0.986723, -0.158116, 0.987048, 0.0608949, -0.148416, 2.42049, -1.35701, -0.222506 )
+light_energy = 16.0
+light_specular = 1.0
+
+[node name="SpotLight4" type="SpotLight" parent="."]
+transform = Transform( -0.160134, 0.318539, -0.934286, -0.00961708, 0.945952, 0.324164, 0.987048, 0.0608949, -0.148416, -3.95427, 0.511279, -0.222506 )
+light_color = Color( 0, 0, 0, 1 )
+light_energy = 16.0
+light_specular = 1.0
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.0423133, 0.999104, 0, -0.999104, 0.0423133, 0, 0.247509, 0 )
+shape = SubResource( 1 )

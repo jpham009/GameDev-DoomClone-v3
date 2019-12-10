@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/m-red_darkdetonation02.wav-6696c595bc089ca8d179da05a48939d4.sample"
+
+[deps]
+
+source_file="res://Audio/m-red_darkdetonation02.wav"
+dest_files=[ "res://.import/m-red_darkdetonation02.wav-6696c595bc089ca8d179da05a48939d4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/Rubber_normal.jpeg-ab218f9fa8d9cb90b6b47fbc0e34e601.s3tc.stex"
+path.etc2="res://.import/Rubber_normal.jpeg-ab218f9fa8d9cb90b6b47fbc0e34e601.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://Meshes/exit/textures/Rubber_normal.jpeg"
+dest_files=[ "res://.import/Rubber_normal.jpeg-ab218f9fa8d9cb90b6b47fbc0e34e601.s3tc.stex", "res://.import/Rubber_normal.jpeg-ab218f9fa8d9cb90b6b47fbc0e34e601.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=1
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

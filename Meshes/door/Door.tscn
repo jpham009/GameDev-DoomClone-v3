@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Meshes/door/Door.gd" type="Script" id=1]
+[ext_resource path="res://Meshes/exit/scene.gltf" type="PackedScene" id=2]
+[ext_resource path="res://Meshes/door/scene.gltf" type="PackedScene" id=3]
+
+[sub_resource type="BoxShape" id=1]
+extents = Vector3( 3.95484, 5.88994, 1.05454 )
+
+[node name="Door" type="KinematicBody"]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.4, 0, 0, 0 )
+script = ExtResource( 1 )
+
+[node name="Scene Root" parent="." instance=ExtResource( 2 )]
+transform = Transform( -2.18557e-007, 0, -4, 0, 5, 0, 5, 0, -1.74846e-007, 0.0103065, 22.4874, -0.000294447 )
+
+[node name="Scene Root2" parent="." instance=ExtResource( 3 )]
+transform = Transform( -2.18557e-008, 0, 0.5, 0, 0.75, 0, -0.5, 0, -2.18557e-008, 0, -0.0957627, 0 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.02887, 0.233891 )
+shape = SubResource( 1 )

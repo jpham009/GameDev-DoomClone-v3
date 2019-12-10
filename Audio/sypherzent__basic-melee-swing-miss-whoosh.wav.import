@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/sypherzent__basic-melee-swing-miss-whoosh.wav-d7bc59a874028fcdd884348c43db39ff.sample"
+
+[deps]
+
+source_file="res://Audio/sypherzent__basic-melee-swing-miss-whoosh.wav"
+dest_files=[ "res://.import/sypherzent__basic-melee-swing-miss-whoosh.wav-d7bc59a874028fcdd884348c43db39ff.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

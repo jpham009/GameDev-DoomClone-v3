@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Male Grunt-SoundBible.com-68178715.wav-9f87d2eebff2f81446ca3e9810d78e30.sample"
+
+[deps]
+
+source_file="res://Audio/Male Grunt-SoundBible.com-68178715.wav"
+dest_files=[ "res://.import/Male Grunt-SoundBible.com-68178715.wav-9f87d2eebff2f81446ca3e9810d78e30.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

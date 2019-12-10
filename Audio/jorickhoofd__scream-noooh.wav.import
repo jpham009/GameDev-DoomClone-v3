@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/jorickhoofd__scream-noooh.wav-b863c230ea936091ca70a3f75167527f.sample"
+
+[deps]
+
+source_file="res://Audio/jorickhoofd__scream-noooh.wav"
+dest_files=[ "res://.import/jorickhoofd__scream-noooh.wav-b863c230ea936091ca70a3f75167527f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

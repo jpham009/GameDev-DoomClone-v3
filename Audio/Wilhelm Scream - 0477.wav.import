@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Wilhelm Scream - 0477.wav-b7d83a9f201caf8b88d78dcdadc8d4b1.sample"
+
+[deps]
+
+source_file="res://Audio/Wilhelm Scream - 0477.wav"
+dest_files=[ "res://.import/Wilhelm Scream - 0477.wav-b7d83a9f201caf8b88d78dcdadc8d4b1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,111 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Meshes/floor/Ground_Dirt_006_COLOR.jpg" type="Texture" id=1]
+[ext_resource path="res://Meshes/walltextures/Seamless hardened dirt ground texture.jpg" type="Texture" id=2]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_unshaded = true
+albedo_color = Color( 0.824219, 0.254349, 0.254349, 1 )
+albedo_texture = ExtResource( 1 )
+uv1_scale = Vector3( 20, 20, 20 )
+
+[sub_resource type="PlaneMesh" id=2]
+material = SubResource( 1 )
+size = Vector2( 147, 132 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 100, 0, 100 )
+
+[sub_resource type="BoxShape" id=4]
+extents = Vector3( 78, 5, 2 )
+
+[sub_resource type="SpatialMaterial" id=5]
+flags_unshaded = true
+albedo_color = Color( 0.898039, 0, 0, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 50, 10, 1 )
+uv1_triplanar_sharpness = 1.18921
+
+[sub_resource type="CubeMesh" id=6]
+size = Vector3( 150, 50, 2 )
+
+[sub_resource type="SpatialMaterial" id=7]
+flags_unshaded = true
+albedo_color = Color( 0.898039, 0, 0, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 50, 10, 1 )
+
+[sub_resource type="SpatialMaterial" id=8]
+flags_unshaded = true
+albedo_color = Color( 0.898039, 0, 0, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 50, 10, 1 )
+
+[sub_resource type="SpatialMaterial" id=9]
+flags_unshaded = true
+albedo_color = Color( 0.898039, 0, 0, 1 )
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 50, 10, 1 )
+
+[node name="StaticBody" type="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00638962, -1.26452, 0.0576973 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.183795, 0, -0.282179 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 3 )
+
+[node name="StaticBody" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0, 1.91393, 72.2027 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0, 3.20432, -4.68641 )
+shape = SubResource( 4 )
+
+[node name="MeshInstance" type="MeshInstance" parent="StaticBody"]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, -0.0348816, 2.92321, -4.41924 )
+material_override = SubResource( 5 )
+mesh = SubResource( 6 )
+material/0 = null
+
+[node name="StaticBody3" type="StaticBody" parent="."]
+transform = Transform( -0.00896351, 0, -0.99996, 0, 0.8, 0, 0.99996, 0, -0.00896351, 99.0127, 0.952508, 2.22732 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody3"]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0.215808, 3.20432, 24.0342 )
+shape = SubResource( 4 )
+
+[node name="MeshInstance" type="MeshInstance" parent="StaticBody3"]
+transform = Transform( 1, 0, -4.65661e-009, 0, 0.8, 0, 4.65661e-009, 0, 1, -0.991679, 3.84559, 25.0178 )
+material_override = SubResource( 7 )
+mesh = SubResource( 6 )
+material/0 = null
+
+[node name="StaticBody4" type="StaticBody" parent="."]
+transform = Transform( -0.00896351, 0, -0.99996, 0, 0.8, 0, 0.99996, 0, -0.00896351, -97.1112, 0.952508, 2.22732 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody4"]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, -0.200248, 3.20432, -22.3803 )
+shape = SubResource( 4 )
+
+[node name="MeshInstance" type="MeshInstance" parent="StaticBody4"]
+transform = Transform( 1, 0, -3.72529e-009, 0, 0.8, 0, 3.72529e-009, 0, 1, -0.745092, 3.84558, -22.3265 )
+material_override = SubResource( 8 )
+mesh = SubResource( 6 )
+material/0 = null
+
+[node name="StaticBody2" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0, 0.952508, -98.0712 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody2"]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0, 3.20432, 31.6671 )
+shape = SubResource( 4 )
+
+[node name="MeshInstance" type="MeshInstance" parent="StaticBody2"]
+transform = Transform( 1, 0, 0, 0, 0.8, 0, 0, 0, 1, 0.849206, 3.86807, 31.5641 )
+material_override = SubResource( 9 )
+mesh = SubResource( 6 )
+material/0 = null

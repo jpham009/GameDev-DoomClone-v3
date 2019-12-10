@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/melodyloops-preview-heavy-cat-1m19s.wav-8f9a8c754be476dee46b1688f506b40b.sample"
+
+[deps]
+
+source_file="res://Audio/melodyloops-preview-heavy-cat-1m19s.wav"
+dest_files=[ "res://.import/melodyloops-preview-heavy-cat-1m19s.wav-8f9a8c754be476dee46b1688f506b40b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

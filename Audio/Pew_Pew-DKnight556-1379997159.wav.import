@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Pew_Pew-DKnight556-1379997159.wav-717c6429f6b9baf463c0b49f4c562020.sample"
+
+[deps]
+
+source_file="res://Audio/Pew_Pew-DKnight556-1379997159.wav"
+dest_files=[ "res://.import/Pew_Pew-DKnight556-1379997159.wav-717c6429f6b9baf463c0b49f4c562020.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
